@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CurrencyDemo</string>
+    <string name="currency_screen">Currency Screen</string>
+    <string name="sek">SEK</string>
+    <string name="_2f">%.2f</string>
+    <string name="eur">Eur</string>
+</resources>
