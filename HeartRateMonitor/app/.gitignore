@@ -1,1 +1,15 @@
-/build
+
+# Gradle
+/.gradle/
+build/
+*/build/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Local config
+local.properties
+
+# Misc
+.DS_Store
