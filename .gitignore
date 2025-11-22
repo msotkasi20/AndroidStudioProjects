@@ -1,0 +1,26 @@
+# --- Android Studio / IntelliJ ---
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# --- Gradle ---
+.gradle/
+**/build/
+**/.gradle/
+**/.cxx/
+**/.externalNativeBuild/
+**/captures/
+
+# --- Paikalliset asetukset ---
+local.properties
+
+# --- Lokit ja muut roskat ---
+*.log
+
+# --- Käyttöjärjestelmän roinat ---
+.DS_Store
+Thumbs.db
+
+# --- Muut käännöskansiot ---
+out/
