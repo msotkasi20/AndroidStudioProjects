@@ -5,13 +5,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.tavoitesyke"
+    namespace = "com.example.mvvmcounterandlocation"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.example.tavoitesyke"
+        applicationId = "com.example.mvvmcounterandlocation"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -50,6 +50,7 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
+    implementation(libs.androidx.navigation.compose)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
